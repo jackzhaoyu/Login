@@ -91,7 +91,7 @@ www  WEB部署目录（或者子目录）
 ![登陆界面效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/login.png)
 
 ### 成功页面的跳转效果
-![登陆界面效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/Loginsuccess.png)
+![登陆界面效果图](https://github.com/jackzhaoyu/Login/blob/master/image/Loginsuccess.png)
 
 ### 跳转的首页！！！这里的页面全是假的，会后续更新
 ![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/jiayemian.jpg)
