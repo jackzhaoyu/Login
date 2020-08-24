@@ -1,4 +1,4 @@
-该项目为使用ThinkPHP5.1+X-Admin做的一个登录框架
+该项目为使用ThinkPHP5.1+X-Admin做的一个登录框架（数据库文件在app\common下有一个X-adminlogin.sql的数据库文件）
 ===============
 
 ThinkPHP5.1对底层架构做了进一步的改进，减少依赖，其主要特性包括：
