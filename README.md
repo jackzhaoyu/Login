@@ -107,7 +107,15 @@ www  WEB部署目录（或者子目录）
 *   常量以大写字母和下划线命名，例如 `APP_PATH`和 `THINK_PATH`；
 *   配置参数以小写字母和下划线命名，例如 `url_route_on` 和`url_convert`；
 
-### 数据表和字段
-*   数据表和字段采用小写加下划线方式命名，并注意字段名不要以下划线开头，例如 `think_user` 表和 `user_name`字段，不建议使用驼峰和中文作为数据表字段命名。
-
+### 登陆界面效果图
 ![登陆界面效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/login.png)
+
+### 成功页面的跳转效果
+![登陆界面效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/Loginsuccess.png)
+
+### 跳转的首页！！！这里的页面全是假的，会后续更新
+![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/jiayemian.png)
+
+### 页面报错效果图
+![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/eoor.png)
+![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/loginerror.png)
