@@ -1,4 +1,4 @@
-ThinkPHP 5.1RC1
+该项目为使用ThinkPHP5.1+X-Admin做的一个登录框架
 ===============
 
 ThinkPHP5.1对底层架构做了进一步的改进，减少依赖，其主要特性包括：
@@ -25,16 +25,16 @@ ThinkPHP5.1对底层架构做了进一步的改进，减少依赖，其主要特
 ~~~
 www  WEB部署目录（或者子目录）
 ├─application           应用目录
-│  ├─common             公共模块目录（可以更改）
+│  ├─common             公共模块目录（我将MySQL放在了该目录下也就是Model层）
 │  ├─module_name        模块目录
-│  │  ├─common.php      模块函数文件
+│  │  ├─common.php      模块函数文件 
 │  │  ├─controller      控制器目录
-│  │  ├─model           模型目录
+│  │  ├─model           模型目录  (注意，该木椅我已经去掉了，放在了公共目录中了)
 │  │  ├─view            视图目录
 │  │  └─ ...            更多类库目录
 │  │
 │  ├─command.php        命令行定义文件
-│  ├─common.php         公共函数文件
+│  ├─common.php         公共函数文件 (为了方便与前端调用，做一个一个简单的封装appApi方法)
 │  └─tags.php           应用行为扩展定义文件
 │
 ├─config                应用配置目录
@@ -85,31 +85,6 @@ www  WEB部署目录（或者子目录）
 ├─think                 命令行入口文件
 ~~~
 
-> router.php用于php自带webserver支持，可用于快速测试
-> 切换到public目录后，启动命令：php -S localhost:8888  router.php
-> 上面的目录结构和名称是可以改变的，这取决于你的入口文件和配置参数。
-
-## 升级指导
-
-原有下面系统类库的命名空间需要调整：
-
-* think\App      => think\facade\App （或者 App ）
-* think\Cache    => think\facade\Cache （或者 Cache ）
-* think\Config   => think\facade\Config （或者 Config ）
-* think\Cookie   => think\facade\Cookie （或者 Cookie ）
-* think\Debug    => think\facade\Debug （或者 Debug ）
-* think\Hook     => think\facade\Hook （或者 Hook ）
-* think\Lang     => think\facade\Lang （或者 Lang ）
-* think\Log      => think\facade\Log （或者 Log ）
-* think\Request  => think\facade\Request （或者 Request ）
-* think\Response => think\facade\Reponse （或者 Reponse ）
-* think\Route    => think\facade\Route （或者 Route ）
-* think\Session  => think\facade\Session （或者 Session ）
-* think\Url      => think\facade\Url （或者 Url ）
-
-原有的配置文件config.php 拆分为app.php cache.php 等独立配置文件 放入config目录。
-原有的路由定义文件route.php 移动到route目录
-
 ## 命名规范
 
 `ThinkPHP5`遵循PSR-2命名规范和PSR-4自动加载规范，并且注意如下规范：
@@ -135,19 +110,4 @@ www  WEB部署目录（或者子目录）
 ### 数据表和字段
 *   数据表和字段采用小写加下划线方式命名，并注意字段名不要以下划线开头，例如 `think_user` 表和 `user_name`字段，不建议使用驼峰和中文作为数据表字段命名。
 
-## 参与开发
-请参阅 [ThinkPHP5 核心框架包](https://github.com/top-think/framework)。
-
-## 版权信息
-
-ThinkPHP遵循Apache2开源协议发布，并提供免费使用。
-
-本项目包含的第三方源码和二进制文件之版权信息另行标注。
-
-版权所有Copyright © 2006-2017 by ThinkPHP (http://thinkphp.cn)
-
-All rights reserved。
-
-ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
-
-更多细节参阅 [LICENSE.txt](LICENSE.txt)
+![登陆界面效果图](https://github.com/jackzhaoyu/Login/blob/master/image/login.png)
