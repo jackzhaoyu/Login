@@ -93,7 +93,7 @@ www  WEB部署目录（或者子目录）
 ![登陆界面效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/Loginsuccess.png)
 
 ### 跳转的首页！！！这里的页面全是假的，会后续更新
-![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/jiayemian.png)
+![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/jiayemian.jpg)
 
 ### 页面报错效果图
 ![首页效果图](https://raw.githubusercontent.com/jackzhaoyu/Login/master/image/eoor.png)
